@@ -1,35 +1,108 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: aliceblue;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#header {
-    position: relative;
-    height: 300px;
+body {
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
 }
-.avatar {
-    background-image: url('284845888_1398194240648310_6039744405554203516_n.jpg');
-    width: 200px;
-    height: 200px;
-    clip-path: circle(50px at 50% 50%);
-  }
-#header-top{
-    text-align: center;
-    height: 20px;
+h1 {
+  text-align: center;
+}
+.header-background {
+  height: 300px;
+}
+.header-background img {
+  border-bottom: 5px solid white;
+}
+.header-university {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #333;
+  opacity: 0.8;
+  padding: 8px 0;
+  font-weight: bold;
+}
+.header-form {
+  position: absolute;
+  top: 32%;
+  left: 42%;
+  text-align: center;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.class {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.avatar img {
+  position: absolute;
+  top: 320%;
+  left: 12%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.form {
+  margin-top: 300px;
+}
+.Thong-tin-ca-nhan {
+  text-align: center;
+}
+.Ket-qua-hoc-tap {
+  text-align: center;
+}
+.San-pham-ca-nhan {
+  text-align: center;
+}
+.Thu-Vien-Anh {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.Anh-ki-niem img {
+  width: 200px;
+  height: 200px;
+}
 
+.trai {
+  margin-left: 10%;
+  margin-bottom: 10px;
 }
-.Thong-tin-ca-nhan{
-    text-align: center;
+.trai img {
+  width: 400px;
+  height: 600px;
 }
-.Ket-qua-hoc-tap{
-    text-align: center;
+.giua img {
+  width: 200px;
+  height: 200px;
 }
-.San-pham-ca-nhan{
-    text-align: center;
+.anh-tren-giua {
+  width: 400px !important;
 }
-.Anh-ki-niem {
-    float: left;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+  margin-top: -5px;
+}
+.phai {
+  display: flex;
+  flex-direction: column;
+}
+.phai img {
+  width: 400px !important;
+}
+.anh-phai-duoi {
+  height: 400px !important;
 }
