@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+#header {
+    position: relative;
+    height: 300px;
+}
+.avatar {
+    background-image: url('284845888_1398194240648310_6039744405554203516_n.jpg');
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50px at 50% 50%);
+  }
+#header-top{
+    text-align: center;
+    height: 20px;
+
+}
+.Thong-tin-ca-nhan{
+    text-align: center;
+}
+.Ket-qua-hoc-tap{
+    text-align: center;
+}
+.San-pham-ca-nhan{
+    text-align: center;
+}
+.Anh-ki-niem {
+    float: left;
+}
